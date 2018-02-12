@@ -1,0 +1,38 @@
+{
+    "name": "squaresandbrackets/craft-status-code",
+    "description": "Returns the HTTP status code within twig templates",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": ["craft", "cms", "craftcms", "craft-plugin", "status code"],
+    "support": {
+        "docs":
+            "https://github.com/https://github.com/MiMaMuh/craft-status-code.git/status-code/blob/master/README.md",
+        "issues":
+            "https://github.com/https://github.com/MiMaMuh/craft-status-code.git/status-code/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Squares And Brackets",
+            "homepage": "http://squaresandbrackets.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+            "squaresandbrackets\\statuscode\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Status Code",
+        "handle": "status-code",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl":
+            "https://raw.githubusercontent.com/https://github.com/MiMaMuh/craft-status-code.git/status-code/master/CHANGELOG.md",
+        "class": "squaresandbrackets\\statuscode\\StatusCode"
+    }
+}
