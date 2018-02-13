@@ -22,7 +22,7 @@ use yii\base\Behavior;
 
 
 // http://www.yiiframework.com/doc-2.0/guide-concept-behaviors.html
-class MyBehavior extends Behavior {
+class StatusCodeBehavior extends Behavior {
     public function getHttpStatus()
     {
         return http_response_code();
@@ -78,18 +78,6 @@ class StatusCode extends Plugin
         parent::init();
         self::$plugin = $this;
 
-        // Do something after we're installed
-        // Event::on(
-        //     Plugins::class,
-        //     Plugins::EVENT_AFTER_INSTALL_PLUGIN,
-        //     function (PluginEvent $event) {
-        //         if ($event->plugin === $this) {
-        //             // We were just installed
-        //         }
-        //     }
-        // );
-
-
         Event::on(
             CraftVariable::class,
             CraftVariable::EVENT_INIT,
@@ -99,7 +87,7 @@ class StatusCode extends Plugin
 
                // Attach a behavior:
                $variable->attachBehaviors([
-                   MyBehavior::class,
+                   StatusCodeBehavior::class,
                ]);
            }
        );

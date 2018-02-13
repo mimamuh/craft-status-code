@@ -1,6 +1,6 @@
 # Status Code plugin for Craft CMS 3.x
 
-Returns the HTTP status code within twig templates
+Returns the HTTP status code within twig templates by simply calling `craft.getHttpStatus()`,
 
 ![Screenshot](resources/img/plugin-logo.png)
 
@@ -18,25 +18,14 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require https://github.com/MiMaMuh/craft-status-code.git/status-code
+        composer require squaresandbrackets/craft-status-code
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Status Code.
 
-## Status Code Overview
+## How to use it in your twig template
 
--Insert text here-
+		{{ craft.getHttpStatus() }}
 
-## Configuring Status Code
-
--Insert text here-
-
-## Using Status Code
-
--Insert text here-
-
-## Status Code Roadmap
-
-Some things to do, and ideas for potential features:
 
 * Release it
 

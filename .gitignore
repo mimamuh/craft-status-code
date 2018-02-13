@@ -23,6 +23,8 @@
 *.sublime-project
 *.tmproj
 *.tmproject
+*.ai
+*.ps
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json

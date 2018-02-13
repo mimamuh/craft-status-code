@@ -1,7 +1,7 @@
 {
     "pluginName":"Status Code",
     "pluginDescription":"Returns the HTTP status code within twig templates",
-    "pluginVersion":"1.0.0",
+    "pluginVersion":"1.0.1",
     "pluginAuthorName":"Squares And Brackets",
     "pluginVendorName":"squaresandbrackets",
     "pluginAuthorUrl":"http://squaresandbrackets.com",
