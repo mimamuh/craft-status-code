@@ -21,5 +21,5 @@
  * @since     1.0.0
  */
 return [
-    'Status Code plugin loaded' => 'Status Code plugin loaded',
+    'status-code plugin loaded' => 'Status Code plugin loaded',
 ];
