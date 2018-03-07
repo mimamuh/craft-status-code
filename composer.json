@@ -2,7 +2,7 @@
     "name": "squaresandbrackets/craft-status-code",
     "description": "Returns the HTTP status code within twig templates",
     "type": "craft-plugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": ["craft", "cms", "craftcms", "craft-plugin", "status code"],
     "support": {
         "docs":
